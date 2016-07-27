@@ -5,6 +5,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+        "fmt"
 )
 
 func main() {
@@ -19,4 +20,5 @@ func main() {
 			log.Fatal(err)
 		}
 	}
+	fmt.Printf("\n")
 }
